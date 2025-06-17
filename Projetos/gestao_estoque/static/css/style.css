@@ -1,0 +1,88 @@
+@charset "utf8";
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html{
+
+    height: 100vh;
+
+}
+
+div#container{
+
+    display: flex;
+
+}
+
+/* HEADER */
+
+header nav{
+
+    background-color: rgba(173, 216, 230, 0.384);
+    padding: 30px 50px;
+    height: 100vh;
+    border: 1px solid rgba(0, 0, 0, 0.199);
+    border-radius: 0px 5px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.123);
+
+}
+
+li{
+
+    margin-top: 20px;
+    list-style: none;
+    text-align: center;
+
+}
+
+li a{
+
+    font: normal 1.3em Arial;
+    text-decoration: none;
+
+}
+
+
+
+/* CORPO */
+
+main{
+
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 30px;
+
+}
+
+input, label, textarea, select{
+
+    display: block;
+
+}
+
+button, h2{
+
+    margin-top: 20px;
+
+}
+
+form.icon{
+
+    display: inline-block;
+
+}
+
+div#login{
+
+    margin: 20px;
+
+}
+
+/* FOOTER */
+

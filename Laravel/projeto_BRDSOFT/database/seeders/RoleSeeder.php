@@ -1,0 +1,30 @@
+<?php
+
+namespace Database\Seeders;
+
+use App\Models\Role;
+
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use Illuminate\Database\Seeder;
+
+class RoleSeeder extends Seeder{
+
+    public function run(): void{
+        
+        Role::create([
+
+            'name' => 'Admin',
+            'description' => 'Esse é o cargo de "Super Usuário"'
+
+        ]);
+
+        Role::create([
+
+            'name' => 'Usuário',
+            'description' => 'Esse é o cargo de "Usuário Simples"'
+
+        ]);
+
+    }
+
+}

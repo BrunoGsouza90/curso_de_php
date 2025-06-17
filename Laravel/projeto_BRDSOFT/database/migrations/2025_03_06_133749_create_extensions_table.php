@@ -1,0 +1,33 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration{
+
+    public function up(): void{
+
+        Schema::create('extensions', function (Blueprint $table) {
+            $table->id();
+            $table->integer('extesion')->length(5);
+            $table->string('name', length: 100);
+            $table->enum('type', ['SIP', 'WEB']);
+            $table->integer('callerid')->length(12);
+            $table->timestamps();
+
+            $table->foreignId('user_id')
+            ->constrained()
+            ->CascadeOnDelete();
+
+        });
+
+    }
+
+    public function down(): void{
+
+        Schema::dropIfExists('extensions');
+
+    }
+
+};

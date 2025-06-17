@@ -1,0 +1,238 @@
+@charset "utf8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Configuração Geral. */
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+html{
+
+    min-height: 100vh;
+    position: relative;
+
+}
+
+/* Header. */
+
+a#logo{
+
+    position: absolute;
+    top: 10px;
+    left: 9.5%;
+
+}
+
+a#logo img{
+
+    width: 50px;
+
+}
+
+ul#navbar{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.507);
+    padding: 20px;
+    text-transform: uppercase;
+    list-style: none;
+    border-radius: 0px 0px 5px 5px;
+    border: 1px solid rgba(0, 0, 0, 0.151);
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.548);
+
+}
+
+ul#navbar li{
+
+    margin: 0px 10px;
+    padding: 5px;
+
+}
+
+ul#navbar li a{
+
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+
+}
+
+ul#navbar li a:visited{
+
+    color: white;
+
+}
+
+ul#navbar li a:hover{
+
+    color: black;
+
+}
+
+/* Página Inicial. */
+/* Main. */
+
+main div#container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+main div#titulo{
+
+    min-width: 500px;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+main div#titulo h1{
+
+    font-size: 50px;
+
+}
+
+main div#titulo p{
+
+    margin-top: 10px;
+    text-transform: uppercase;
+    color: rgb(82, 82, 82);
+
+}
+
+div#posts{
+
+    max-width: 1200px;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+div#caixa_post:first-child{
+
+    min-width: 100%;
+
+}
+
+div#caixa_post{
+
+    flex: 1 1 0;
+    margin: 0 20px;
+    margin-bottom: 20px;
+
+}
+
+div#caixa_post img{
+
+    width: 100%;
+
+}
+
+h2#titulo_post{
+
+    font-size: 24px;
+    margin: 10px 0;
+
+}
+
+h2#titulo_post a{
+
+    color: black;
+    transition: 0.5s;
+    text-decoration: none;
+
+}
+
+h2#titulo_post a:hover{
+
+    color: gray;
+    transition: 0.2s;
+
+}
+
+p#descricao_post{
+
+    color: rgb(44, 44, 44);
+
+}
+
+div#tags_post{
+
+    margin-top: 10px;
+
+}
+
+div#tags_post a{
+
+    display: inline-block;
+    font-size: 14px;
+    color: rgb(26, 25, 25);
+    margin-right: 5px;
+
+}
+
+div#tags_post a:hover{
+
+    
+
+}
+
+/* Footer. */
+
+footer{
+
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 50px 0px;
+
+}
+
+footer p{
+
+    font-weight: 500;
+
+}
+
+/* Página de Posts. */
+
+/* Main. */
+div#post_container{
+
+    margin: 30px;
+    text-align: center;
+
+}
+
+div#post_container h1{
+
+    font-size: 40px;
+
+}
+
+div#post_container p{
+
+    margin-top: 30px;
+
+}
+
+div#imagem img{
+
+    margin-top: 20px;
+    max-width: 500px;
+
+}

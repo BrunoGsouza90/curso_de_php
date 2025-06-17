@@ -1,0 +1,26 @@
+Temos dois clientes em um banco.
+
+Um se chama Jubileu, e a outra pessoa se chama Creusa.
+
+Ambos os dois tem um valor para depositar.
+
+O Jubileu deseja criar uma conta poupança e depositar R$ 300,00. A Creusa quer criar uma conta corrente e depositar R$ 500,00.
+
+A Creusa após fazer o deposito quer sacar R$ 100,00.
+
+Os Métodos serão os seguintes:
+
+Poderá abrir uma conta (cc = conta corente, cp = conta poupança)(se conta corrente o valor começa com R$ 50,00 e se for conta poupança o valor começa com R$ 150,00).
+
+Fechar uma conta(O valor precisará estar zerado e a conta precisa estar aberta).
+
+Depositar valores(A conta precisa estar aberta).
+
+Sacar valores(A conta precisa estar aberta e o saldo precisa ser menor ou igual o valor em saldo).
+
+Pagar mensalidade.
+
+É necessário usar todos os métodos especiais.
+Construtor: 
+saldo = 0, saldo = falso.
+
