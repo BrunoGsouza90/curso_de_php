@@ -1,0 +1,100 @@
+@charset "utf8";
+
+@import url('https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Trade+Winds&display=swap');
+
+table{
+
+    margin: 0 auto;
+    margin-top: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-collapse: collapse;
+
+}
+
+th, td{
+
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 20px;
+
+}
+
+div.graphic{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 30px;
+
+}
+
+div.status{
+    
+    width:100px;
+    height: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.329);
+    font: bold 0.8em Orbitron;
+    color: rgba(0, 0, 0, 0.781);
+
+}
+
+div.titles{
+
+    text-align: center;
+    padding: 0px 0px 0px 100px
+}
+
+h2{
+
+    font: normal 0.8em Trade Winds;
+
+}
+
+div#opensips{
+
+    background-color: lightgreen;
+
+}
+
+div#rtpengine{
+
+    background-color: lightcoral;
+
+}
+
+.titulo{
+
+    margin-top: 40px;
+
+}
+
+.pizza{
+
+    width: 200px;
+    height: 200px;
+
+}
+
+canvas#myChart_cpu{
+
+    width: 180px;
+    height: 180px;
+
+}
+
+div#first_graphic{
+
+    margin-top: -40px;
+
+}
+
+div#graphics{
+
+    display: block;
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+
+}
