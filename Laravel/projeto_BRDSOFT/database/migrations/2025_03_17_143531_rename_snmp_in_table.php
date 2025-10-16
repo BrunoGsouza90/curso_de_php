@@ -8,7 +8,7 @@ return new class extends Migration{
 
     public function up(): void{
 
-        Schema::rename('Oidsnmps', 'oidsnmps');
+        Schema::rename('snmp', 'oidsnmps');
 
     }
 
@@ -16,7 +16,7 @@ return new class extends Migration{
 
         Schema::table('table', function (Blueprint $table){
 
-            
+            Schema::rename('oidsnmps', 'snmp');
 
         });
 
